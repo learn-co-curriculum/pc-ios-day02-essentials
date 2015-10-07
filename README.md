@@ -11,8 +11,29 @@
 -
 We covered a good deal of material today.  **Essentials** will give you a quick rundown of the terms and concepts that you should be familair with going into next week.
 
+##Methods##
+A method is a concept across virtually all computer programming languages.  A method is just a set of instructions that you assign a name and likely use over and over again.  For example, if we had a method called
+
+'''swift
+func brush_your_teeth()
+'''
+
+What you're actually saying is:
+1. Go to the bathroom
+2. Pick up your toothbrush
+3. Wet your toothbrush
+4. Pick up your toothpaste
+5. Squeeze toothpaste tube onto your toothbrush
+6. Lift your arm...
+7. 
+
+And so on.  But when your mother tells you to go brush your teeth, does she say all of those steps?  Of course not!  She merely tells you to call the brush_your_teeth() function.  Notice how 1) each of those steps could be methods themselves and 2) How much more efficiently we can write our code with methods.
+
+
 ##InterfaceBuilder##
 + **UIImageView**: UIImage view is an object from the object library that you can use for inserting an Image.  In order to insert an image, you have to put the file into your Nav folder.
+
+
 
 ?: Which of the following is not a way in which variables and constants differ?
 

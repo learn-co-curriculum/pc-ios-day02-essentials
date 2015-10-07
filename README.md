@@ -5,16 +5,18 @@ We covered a good deal of material today.  **Essentials** will give you a quick 
 ##InterfaceBuilder##
 + **UIImageView**: UIImage view is an object from the object library that you can use for inserting an Image.  In order to insert an image, you have to put the file into your Nav folder.
 
-
-???
-
-# Variables + Constants Quiz
-
 ?: Which of the following is not a way in which variables and constants differ?
 
 ( ) Variables are declared with keyword '''Swift var ''' and constants with keyword '''Swift let '''
 (X) You must declare all variables before usage but not all constants
 ( ) Variables and constants can be any data type
+
+
+???
+
+# Variables + Constants Quiz
+
+
 
 
 __The parends below are reserved characters that indicate radio buttons.__

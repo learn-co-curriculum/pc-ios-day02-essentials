@@ -14,7 +14,7 @@ We covered a good deal of material today.  **Essentials** will give you a quick 
 ##Methods##
 A method is a concept across virtually all computer programming languages.  A method is just a set of instructions that you assign a name and likely use over and over again.  For example, if we had a method called
 
-'''swift
+'''Swift
 func brush_your_teeth()
 '''
 

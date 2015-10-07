@@ -1,1 +1,8 @@
-# pc-ios-day02-essentials
+# Essentials
+
+Imageview
+
+Data types: Boolean
+Conditionals
+Mod
+Object properties

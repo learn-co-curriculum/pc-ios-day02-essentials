@@ -39,15 +39,13 @@ What you're actually saying is:
 
 6. Lift your arm...
 
-7. 
-
-And so on...  
+7. And so on...  
 
 But when your mother tells you to go brush your teeth, does she say all of those steps?  Of course not! She merely tells you to call the brush_your_teeth() function.  Notice how 
 
-1) each of those steps could be methods themselves and 
+1) *Each of those steps could be methods themselves* and 
 
-2) How much more efficiently we can write our code with methods.
+2) *How much more efficiently we can write our code with methods.*
 
 
 ##Conditionals##

@@ -34,62 +34,28 @@ And so on.  But when your mother tells you to go brush your teeth, does she say 
 + **UIImageView**: UIImage view is an object from the object library that you can use for inserting an Image.  In order to insert an image, you have to put the file into your Nav folder.
 
 
+##Conditionals##
++ Conditionals are also known as *if statements*.  Conditionals are one of the foundational logic structures that computers use to make decisions.  You use conditionals all the time.  For example:
+'''Swift
+if its_snowing_outside {
+  wear gollashes}
+else {
+  wear flipflops
+}
+'''
++ Often, when we are using conditionals, we'll need to compare two values.  In order to do this in Swift, we need to make sure that the two things that we are comparing are the same type.  For example,
+'''Swift
+if name == "Dan" {
+  println("You are an amazing teacher!"}
+elseif name == "Lyel"{
+  println(you are an amazing teacher!")}
+else {
+  println("I guess you're okay too."
+}
+'''
 
-?: Which of the following is not a way in which variables and constants differ?
+We can also comapre number values:
 
-( ) Variables are declared with keyword '''Swift var ''' and constants with keyword '''Swift let '''
-(X) You must declare all variables before usage but not all constants
-( ) Variables and constants can be any data type
-
-
-???
-
-# Variables + Constants Quiz
-
-
-
-
-__The parends below are reserved characters that indicate radio buttons.__
-
-( ) 3
-(X) 2
-( ) 11
-( ) 1
-
-?: What is 1+1?  This is how you can include code blocks as a choices.
-
-( )
-```ruby
-  def three
-    "3"
-  end
-```
-(X)
-```ruby
-  def two
-    "2"
-  end
-```
-( )
-```ruby
-  def one
-    "1"
-  end
-```
-( )
-```ruby
-  def eleven
-    "11"
-  end
-```
-
-?: A newline is required between this question, and the answer block above.  Select numbers 3 and 4.
-
-#### The square brackets below are reserved characters that indicate checkboxes.
-
-[X] 3
-[X] 4
-[ ] 9
-[ ] 7
-
-???
+if bank_account_total =< 0 {
+  println("Sorry, you do not have any money to withdraw at the moment."
+}

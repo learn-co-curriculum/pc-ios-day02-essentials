@@ -36,6 +36,7 @@ And so on.  But when your mother tells you to go brush your teeth, does she say 
 
 ##Conditionals##
 + Conditionals are also known as *if statements*.  Conditionals are one of the foundational logic structures that computers use to make decisions.  You use conditionals all the time.  For example:
+
 '''Swift
 if its_snowing_outside {
   wear gollashes}
@@ -43,7 +44,9 @@ else {
   wear flipflops
 }
 '''
+
 + Often, when we are using conditionals, we'll need to compare two values.  In order to do this in Swift, we need to make sure that the two things that we are comparing are the same type.  For example,
+
 '''Swift
 if name == "Dan" {
   println("You are an amazing teacher!"}
@@ -56,6 +59,8 @@ else {
 
 We can also comapre number values:
 
+'''Swift
 if bank_account_total =< 0 {
   println("Sorry, you do not have any money to withdraw at the moment."
 }
+'''

@@ -7,7 +7,8 @@
 -declaration
 -parameters
 -return values
--
+
+
 We covered a good deal of material today.  **Essentials** will give you a quick rundown of the terms and concepts that you should be familair with going into next week.
 
 ##InterfaceBuilder##

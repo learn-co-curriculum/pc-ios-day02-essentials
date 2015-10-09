@@ -54,8 +54,9 @@ But when your mother tells you to go brush your teeth, does she say all of those
 +Parameters are also called *arguments*.  A parameter is information that a method uses in
 +We define the function with the ```func``` keyword, the name of the function, its parameters, and return values (if there are return values).
 +For example
+
 ```swift
-func sayHey(name:String) -> String{
+func say_hey(name:String) -> String{
   salutation = "Hey \(name)!  We are so happy that you're here!"
   return salutation
 }
@@ -67,7 +68,8 @@ In this case, "say_hey" is the name of the function, "name" is a parameter of ty
 
 ```swift
 func deliver(contents:String, recipient:String){
-  }```
+  }
+```
   
 + ##Conditionals##
 + Conditionals are also known as *if statements*.  Conditionals are one of the foundational logic structures that computers use to make decisions.  You use conditionals all the time.  For example:

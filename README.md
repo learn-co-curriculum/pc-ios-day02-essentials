@@ -14,9 +14,9 @@ We covered a good deal of material today.  **Essentials** will give you a quick 
 ##Methods##
 A method is a concept across virtually all computer programming languages.  A method is just a set of instructions that you assign a name and likely use over and over again.  For example, if we had a method called
 
-'''swift
+```swift
 func brush_your_teeth()
-'''
+```
 
 What you're actually saying is:
 1. Go to the bathroom
@@ -37,17 +37,17 @@ And so on.  But when your mother tells you to go brush your teeth, does she say 
 ##Conditionals##
 + Conditionals are also known as *if statements*.  Conditionals are one of the foundational logic structures that computers use to make decisions.  You use conditionals all the time.  For example:
 
-'''swift
+```swift
 if its_snowing_outside {
   wear gollashes}
 else {
   wear flipflops
 }
-'''
+```
 
 + Often, when we are using conditionals, we'll need to compare two values.  In order to do this in Swift, we need to make sure that the two things that we are comparing are the same type.  For example,
 
-'''swift
+```swift
 if name == "Dan" {
   println("You are an amazing teacher!"}
 elseif name == "Lyel"{
@@ -55,12 +55,12 @@ elseif name == "Lyel"{
 else {
   println("I guess you're okay too."
 }
-'''
+```
 
 We can also comapre number values:
 
-'''swift
+```swift
 if bank_account_total =< 0 {
   println("Sorry, you do not have any money to withdraw at the moment."
 }
-'''
+```

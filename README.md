@@ -39,21 +39,24 @@ And so on.  But when your mother tells you to go brush your teeth, does she say 
 
 ```swift
 if its_snowing_outside {
-  wear gollashes}
+  wear gollashes 
+  }
 else {
   wear flipflops
-}
+  }
 ```
 
 + Often, when we are using conditionals, we'll need to compare two values.  In order to do this in Swift, we need to make sure that the two things that we are comparing are the same type.  For example,
 
 ```swift
 if name == "Dan" {
-  println("You are an amazing teacher!"}
+  println("You are an amazing teacher!") 
+  }
 elseif name == "Lyel"{
-  println(you are an amazing teacher!")}
+  println(you are an amazing teacher!") 
+  }
 else {
-  println("I guess you're okay too."
+  println("I guess you're okay too.")
 }
 ```
 
@@ -61,6 +64,6 @@ We can also comapre number values:
 
 ```swift
 if bank_account_total =< 0 {
-  println("Sorry, you do not have any money to withdraw at the moment."
+  println("Sorry, you do not have any money to withdraw at the moment.")
 }
 ```

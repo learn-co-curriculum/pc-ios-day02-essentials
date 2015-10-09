@@ -66,7 +66,7 @@ else {
 if name == "Dan" {
   println("You are an amazing teacher!") 
   }
-elseif name == "Lyel"{
+else if name == "Lyel"{
   println(you are an amazing teacher!") 
   }
 else {

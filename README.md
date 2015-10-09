@@ -49,11 +49,11 @@ But when your mother tells you to go brush your teeth, does she say all of those
 
 
 + **Parameters**
-+Functions are not requireed to use parameters. 
-+Functions still require a ```()``` whether there are paramters or not.
-+Parameters are also called *arguments*.  A parameter is information that a method uses in
-+We define the function with the ```func``` keyword, the name of the function, its parameters, and return values (if there are return values).
-+For example
+- Functions are not requireed to use parameters. 
+- Functions still require a ```()``` whether there are paramters or not.
+- Parameters are also called *arguments*.  A parameter is information that a method uses in
+- We define the function with the ```func``` keyword, the name of the function, its parameters, and return values (if there are return values).
+- For example
 
 ```swift
 func say_hey(name:String) -> String{

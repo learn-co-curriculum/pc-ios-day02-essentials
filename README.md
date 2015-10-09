@@ -65,7 +65,8 @@ func deliver(contents:String, recipient:String){
   }
 ```
   
-+ ##Conditionals##
+  
+##Conditionals##
 + Conditionals are also known as *if statements*.  Conditionals are one of the foundational logic structures that computers use to make decisions.  You use conditionals all the time.  For example:
 
 ```swift

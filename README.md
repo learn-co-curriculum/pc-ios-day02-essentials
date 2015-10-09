@@ -47,12 +47,8 @@ But when your mother tells you to go brush your teeth, does she say all of those
 
 2) *How much more efficiently we can write our code with methods.*
 
-
-+ **Parameters**
-- Functions are not requireed to use parameters. 
-- Functions still require a ```()``` whether there are paramters or not.
-- Parameters are also called *arguments*.  A parameter is information that a method uses in
-- We define the function with the ```func``` keyword, the name of the function, its parameters, and return values (if there are return values).
+**How to write methods**
+We define the function with the ```func``` keyword, the name of the function, its parameters, and return values (if there are return values).
 - For example
 
 ```swift
@@ -64,7 +60,12 @@ func say_hey(name:String) -> String{
 
 In this case, "say_hey" is the name of the function, "name" is a parameter of type *String*, and the function will return a String.
 
-+Functions can have multiple parameters
+
+**Parameters**
+- Functions are not requireed to use parameters. 
+- Functions still require a ```()``` whether there are paramters or not.
+- Parameters are also called *arguments*.  A parameter is information that a method uses in
+- Functions can have multiple parameters
 
 ```swift
 func deliver(contents:String, recipient:String){

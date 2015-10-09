@@ -1,8 +1,5 @@
 # Essentials
 
-+For Loops
-+Boolean Values
-
 We covered a good deal of material today.  **Essentials** will give you a quick rundown of the terms and concepts that you should be familair with going into next week.
 
 ##InterfaceBuilder##
@@ -100,4 +97,5 @@ if bank_account_total =< 0 {
 }
 ```
 
-
+##Loops##
+##Booleans##

@@ -1,7 +1,6 @@
 # Essentials
-+UIImage
-+Conditionals
--If statement is..
++
+
 +For Loops
 +Boolean Values
 +Methods

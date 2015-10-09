@@ -1,13 +1,7 @@
 # Essentials
-+
 
 +For Loops
 +Boolean Values
-+Methods
--declaration
--parameters
--return values
-
 
 We covered a good deal of material today.  **Essentials** will give you a quick rundown of the terms and concepts that you should be familair with going into next week.
 
@@ -48,8 +42,7 @@ But when your mother tells you to go brush your teeth, does she say all of those
 2) *How much more efficiently we can write our code with methods.*
 
 **How to write methods**
-We define the function with the ```func``` keyword, the name of the function, its parameters, and return values (if there are return values).
-- For example
+We define the function with the ```func``` keyword, the name of the function, its parameters, and return values (if there are return values).  For example:
 
 ```swift
 func say_hey(name:String) -> String{

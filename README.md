@@ -67,7 +67,7 @@ if name == "Dan" {
   println("You are an amazing teacher!") 
   }
 else if name == "Lyel"{
-  println(you are an amazing teacher!") 
+  println("You are an amazing teacher!") 
   }
 else {
   println("I guess you're okay too.")

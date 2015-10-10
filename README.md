@@ -48,6 +48,8 @@ func sayHey(name:String) -> String{
 }
 ```
 
+In this case, "say_hey" is the name of the function, "name" is a parameter of type *String*, and the function will return a String.
+
 **Return Values**
 + Every method that we write gives us something called a return value - this is what Swift evaluates for us and gives us back to use in other parts of our program. The return value of our methods is the last line evaluated. 
 + What would the return value of these methods be?
@@ -65,23 +67,19 @@ func sayHey(name:String) -> String{
 	```
 + A return value is always going to be the result of the last line of code in a method. So what's the return value of the following method:
 
-```ruby
- def go_home 
+```swift
+ func goHome() -> String { 
 	"Close your computer"
 	"Put it in your bag"
 	"Stand up"
 	"Walk out the door" 
 	"Go to your house"
-end
+}
 ```
 
 
 This method returns `Go to your house`.
  
-
-
-In this case, "say_hey" is the name of the function, "name" is a parameter of type *String*, and the function will return a String.
-
 
 **Parameters**
 - Functions are not requireed to use parameters. 

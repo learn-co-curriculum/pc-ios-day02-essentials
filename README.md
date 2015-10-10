@@ -128,4 +128,33 @@ if bank_account_total =< 0 {
 ```
 
 ##Loops##
+Computers are very good at moving through large amounts of data very quickly.  Loops are powerful tool for *iterating* through large quantities of data.  
+
+For example, what if we wanted to sum all of the numbers from 1 to 1,000,000?
+```swift
+var sum = 0
+for var index = 1; index <= 1000000; index++ {
+ sum = sum + i
+}
+
+```
 ##Booleans##
+Boolean variables can have one of two values: *true, or false*.  
+
+```swift
+let wakingUpEarlyIsFun = false
+
+if wakingUpEarlyIsFun {
+	print("Benjamin Franklin was an early riser too.")
+}
+else {
+	print("You must really love programming to be here!")
+}
+
+let watermelonsAreDelicious
+
+if watermelonsAreDelicious{
+	print("Have some for breakfast.")
+}
+
+

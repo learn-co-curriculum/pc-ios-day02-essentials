@@ -151,7 +151,7 @@ else {
 	print("You must really love programming to be here!")
 }
 
-let watermelonsAreDelicious
+let watermelonsAreDelicious = true
 
 if watermelonsAreDelicious{
 	print("Have some for breakfast.")

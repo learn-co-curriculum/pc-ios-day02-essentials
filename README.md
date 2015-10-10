@@ -10,7 +10,7 @@ resultImage.image = UIImage(named: "sadPuppy.jpg")
 ```
 
 ##Methods##
-A method is a concept across virtually all computer programming languages.  A method is just a set of instructions that you assign a name and likely use over and over again.  For example, if we had a method called
+A method is a concept that exists across virtually all computer programming languages.  A method is just a set of instructions that you assign a name and likely use over and over again.  For example, if we had a method called
 
 ```swift
 func brush_your_teeth()
@@ -42,11 +42,43 @@ But when your mother tells you to go brush your teeth, does she say all of those
 We define the function with the ```func``` keyword, the name of the function, its parameters, and return values (if there are return values).  For example:
 
 ```swift
-func say_hey(name:String) -> String{
+func sayHey(name:String) -> String{
   salutation = "Hey \(name)!  We are so happy that you're here!"
   return salutation
 }
 ```
+
+**Return Values**
++ Every method that we write gives us something called a return value - this is what Swift evaluates for us and gives us back to use in other parts of our program. The return value of our methods is the last line evaluated. 
++ What would the return value of these methods be?
+	```swift
+	func helloWorld() {
+		"Hello World"
+	} 
+	// returns "Hello World"
+
+	func onePlusOne() -> int {
+		1 + 1 
+	} 
+	
+	// returns 2 
+	```
++ A return value is always going to be the result of the last line of code in a method. So what's the return value of the following method:
+
+```ruby
+ def go_home 
+	"Close your computer"
+	"Put it in your bag"
+	"Stand up"
+	"Walk out the door" 
+	"Go to your house"
+end
+```
+
+
+This method returns `Go to your house`.
+ 
+
 
 In this case, "say_hey" is the name of the function, "name" is a parameter of type *String*, and the function will return a String.
 
@@ -79,13 +111,13 @@ else {
 
 ```swift
 if name == "Dan" {
-  println("You are an amazing teacher!") 
+  print("You are an amazing teacher!") 
   }
 else if name == "Lyel"{
-  println("You are an amazing teacher!") 
+  print("You are an amazing teacher!") 
   }
 else {
-  println("I guess you're okay too.")
+  print("I guess you're okay too.")
 }
 ```
 
@@ -93,7 +125,7 @@ We can also comapre number values:
 
 ```swift
 if bank_account_total =< 0 {
-  println("Sorry, you do not have any money to withdraw at the moment.")
+  print("Sorry, you do not have any money to withdraw at the moment.")
 }
 ```
 

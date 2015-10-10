@@ -134,7 +134,7 @@ For example, what if we wanted to sum all of the numbers from 1 to 1,000,000?
 ```swift
 var sum = 0
 for var index = 1; index <= 1000000; index++ {
- sum = sum + i
+ sum = sum + index
 }
 
 ```

@@ -3,7 +3,7 @@
 We covered a good deal of material today.  **Essentials** will give you a quick rundown of the terms and concepts that you should be familair with going into next week.
 
 ##InterfaceBuilder##
-+ **UIImageView**: UIImage view is an object from the object library that you can use for inserting an Image.  In order to insert an image, you have to put the file into your Nav folder.  
+**UIImageView**: UIImage view is an object from the object library that you can use for inserting an Image.  In order to insert an image, you have to put the file into your Nav folder.  
 
 ```swift
 resultImage.image = UIImage(named: "sadPuppy.jpg")

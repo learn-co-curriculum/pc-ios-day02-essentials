@@ -94,7 +94,7 @@ func deliver(contents:String, recipient:String){
   
   
 ##Conditionals##
-+ Conditionals are also known as *if statements*.  Conditionals are one of the foundational logic structures that computers use to make decisions.  You use conditionals all the time.  For example:
+Conditionals are also known as *if statements*.  Conditionals are one of the foundational logic structures that computers use to make decisions.  You use conditionals all the time.  For example:
 
 ```swift
 if its_snowing_outside {
@@ -105,7 +105,7 @@ else {
   }
 ```
 
-+ Often, when we are using conditionals, we'll need to compare two values.  In order to do this in Swift, we need to make sure that the two things that we are comparing are the same type.  For example,
+Often, when we are using conditionals, we'll need to compare two values.  In order to do this in Swift, we need to make sure that the two things that we are comparing are the same type.  For example,
 
 ```swift
 if name == "Dan" {
